@@ -1,9 +1,9 @@
 #python 3 tin, tray, case weight calculator
-#tyncalc 1.2.1
+#tyncalc 1.2.2
 #removed redundant variable declaration
 from math import ceil
 
-print("TYNCALC WEIGHT CALCULATOR - tynCalc v1.2.1")
+print("TYNCALC WEIGHT CALCULATOR - tynCalc v1.2.2")
 
 def calproc():
     print("##### NEW TYNCALC MEASURMENT #####")
@@ -24,12 +24,13 @@ def calproc():
         print("    ")
         print("    ")
         print("    ")
-        print("                 <end measurment>")
+        print("    ")
         print("    ")
         calproc()
     except ValueError:
         print('   ')
         print('not a recognized number. please type an integer using 0-9!')
+        print("   ")
         calproc()
 
 calproc()
